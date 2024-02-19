@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		62131D882B83A003002CAB40 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62131D872B83A003002CAB40 /* BrowserView.swift */; };
+		62131D8A2B83A8B3002CAB40 /* Screen Recording 2024-02-19 at 22.08.51.mov in Resources */ = {isa = PBXBuildFile; fileRef = 62131D892B83A8B3002CAB40 /* Screen Recording 2024-02-19 at 22.08.51.mov */; };
 		629DA7C62B81C913002BD64C /* Exercise9RepublikaNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */; };
 		629DA7CA2B81C915002BD64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629DA7C92B81C915002BD64C /* Assets.xcassets */; };
 		629DA7CD2B81C915002BD64C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629DA7CC2B81C915002BD64C /* Preview Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		62131D872B83A003002CAB40 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		62131D892B83A8B3002CAB40 /* Screen Recording 2024-02-19 at 22.08.51.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Screen Recording 2024-02-19 at 22.08.51.mov"; path = "../../../../../Desktop/Screen Recording 2024-02-19 at 22.08.51.mov"; sourceTree = "<group>"; };
 		629DA7C22B81C913002BD64C /* Exercise9RepublikaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise9RepublikaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise9RepublikaNewsApp.swift; sourceTree = "<group>"; };
 		629DA7C92B81C915002BD64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		629DA7C42B81C913002BD64C /* Exercise9RepublikaNews */ = {
 			isa = PBXGroup;
 			children = (
+				62131D892B83A8B3002CAB40 /* Screen Recording 2024-02-19 at 22.08.51.mov */,
 				629DA7DF2B81CC75002BD64C /* Models */,
 				629DA7D72B81C9E9002BD64C /* Screen */,
 				629DA7D62B81C9D4002BD64C /* Resources */,
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				629DA7CD2B81C915002BD64C /* Preview Assets.xcassets in Resources */,
+				62131D8A2B83A8B3002CAB40 /* Screen Recording 2024-02-19 at 22.08.51.mov in Resources */,
 				629DA7CA2B81C915002BD64C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
