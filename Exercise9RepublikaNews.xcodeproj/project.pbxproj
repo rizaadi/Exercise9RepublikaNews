@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62131D882B83A003002CAB40 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62131D872B83A003002CAB40 /* BrowserView.swift */; };
 		629DA7C62B81C913002BD64C /* Exercise9RepublikaNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */; };
-		629DA7C82B81C913002BD64C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7C72B81C913002BD64C /* ContentView.swift */; };
 		629DA7CA2B81C915002BD64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629DA7C92B81C915002BD64C /* Assets.xcassets */; };
 		629DA7CD2B81C915002BD64C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629DA7CC2B81C915002BD64C /* Preview Assets.xcassets */; };
+		629DA7DB2B81CA50002BD64C /* RepublikaNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7DA2B81CA50002BD64C /* RepublikaNews.swift */; };
+		629DA7DE2B81CAFC002BD64C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 629DA7DD2B81CAFC002BD64C /* Alamofire */; };
+		629DA7E12B81CC8A002BD64C /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7E02B81CC8A002BD64C /* NewsResponse.swift */; };
+		629DA7E32B81CE5A002BD64C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7E22B81CE5A002BD64C /* Constant.swift */; };
+		629DA7E52B81CEA2002BD64C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7E42B81CEA2002BD64C /* ApiService.swift */; };
+		629DA7E72B81D8A1002BD64C /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7E62B81D8A1002BD64C /* NewsViewModel.swift */; };
+		629DA7E92B81E572002BD64C /* CardNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DA7E82B81E572002BD64C /* CardNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62131D872B83A003002CAB40 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 		629DA7C22B81C913002BD64C /* Exercise9RepublikaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise9RepublikaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise9RepublikaNewsApp.swift; sourceTree = "<group>"; };
-		629DA7C72B81C913002BD64C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		629DA7C92B81C915002BD64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		629DA7CC2B81C915002BD64C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		629DA7DA2B81CA50002BD64C /* RepublikaNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepublikaNews.swift; sourceTree = "<group>"; };
+		629DA7E02B81CC8A002BD64C /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		629DA7E22B81CE5A002BD64C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		629DA7E42B81CEA2002BD64C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		629DA7E62B81D8A1002BD64C /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		629DA7E82B81E572002BD64C /* CardNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629DA7DE2B81CAFC002BD64C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +65,12 @@
 		629DA7C42B81C913002BD64C /* Exercise9RepublikaNews */ = {
 			isa = PBXGroup;
 			children = (
-				629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */,
-				629DA7C72B81C913002BD64C /* ContentView.swift */,
-				629DA7C92B81C915002BD64C /* Assets.xcassets */,
+				629DA7DF2B81CC75002BD64C /* Models */,
+				629DA7D72B81C9E9002BD64C /* Screen */,
+				629DA7D62B81C9D4002BD64C /* Resources */,
+				629DA7D52B81C9CE002BD64C /* App */,
+				629DA7D42B81C9C5002BD64C /* ViewModel */,
+				629DA7D32B81C9BD002BD64C /* Services */,
 				629DA7CB2B81C915002BD64C /* Preview Content */,
 			);
 			path = Exercise9RepublikaNews;
@@ -65,6 +82,65 @@
 				629DA7CC2B81C915002BD64C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		629DA7D32B81C9BD002BD64C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7E22B81CE5A002BD64C /* Constant.swift */,
+				629DA7E42B81CEA2002BD64C /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		629DA7D42B81C9C5002BD64C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7E62B81D8A1002BD64C /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		629DA7D52B81C9CE002BD64C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7C52B81C913002BD64C /* Exercise9RepublikaNewsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		629DA7D62B81C9D4002BD64C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7C92B81C915002BD64C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		629DA7D72B81C9E9002BD64C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7D82B81CA00002BD64C /* News */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		629DA7D82B81CA00002BD64C /* News */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7DA2B81CA50002BD64C /* RepublikaNews.swift */,
+				629DA7E82B81E572002BD64C /* CardNews.swift */,
+				62131D872B83A003002CAB40 /* BrowserView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		629DA7DF2B81CC75002BD64C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				629DA7E02B81CC8A002BD64C /* NewsResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +159,9 @@
 			dependencies = (
 			);
 			name = Exercise9RepublikaNews;
+			packageProductDependencies = (
+				629DA7DD2B81CAFC002BD64C /* Alamofire */,
+			);
 			productName = Exercise9RepublikaNews;
 			productReference = 629DA7C22B81C913002BD64C /* Exercise9RepublikaNews.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 629DA7B92B81C912002BD64C;
+			packageReferences = (
+				629DA7DC2B81CAFC002BD64C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 629DA7C32B81C913002BD64C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629DA7C82B81C913002BD64C /* ContentView.swift in Sources */,
 				629DA7C62B81C913002BD64C /* Exercise9RepublikaNewsApp.swift in Sources */,
+				629DA7E72B81D8A1002BD64C /* NewsViewModel.swift in Sources */,
+				629DA7E52B81CEA2002BD64C /* ApiService.swift in Sources */,
+				62131D882B83A003002CAB40 /* BrowserView.swift in Sources */,
+				629DA7DB2B81CA50002BD64C /* RepublikaNews.swift in Sources */,
+				629DA7E12B81CC8A002BD64C /* NewsResponse.swift in Sources */,
+				629DA7E92B81E572002BD64C /* CardNews.swift in Sources */,
+				629DA7E32B81CE5A002BD64C /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		629DA7DC2B81CAFC002BD64C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		629DA7DD2B81CAFC002BD64C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 629DA7DC2B81CAFC002BD64C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 629DA7BA2B81C912002BD64C /* Project object */;
 }

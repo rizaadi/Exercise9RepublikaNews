@@ -11,7 +11,7 @@ import SwiftUI
 struct Exercise9RepublikaNewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RepublikaNews()
         }
     }
 }
